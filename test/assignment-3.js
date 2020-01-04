@@ -25,7 +25,7 @@ function del(url, args){
     return axios.delete('http://localhost:' + port + url, args);
 }
 
-describe('classi-board - game', function(){
+describe('Assignment 3', function(){
     sleep(2000); 
 
     var tempToken1 = '';
@@ -159,7 +159,7 @@ describe('classi-board - game', function(){
                   })
                   .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                   })
                   .finally(function () {
                   });
@@ -278,7 +278,7 @@ describe('classi-board - game', function(){
                 })
                 .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                 })
                 .finally(function () {
                 });
@@ -298,7 +298,7 @@ describe('classi-board - game', function(){
                 })
                 .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                 })
                 .finally(function () {
                 });
@@ -318,7 +318,7 @@ describe('classi-board - game', function(){
                 })
                 .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                 })
                 .finally(function () {
                 });
@@ -339,7 +339,7 @@ describe('classi-board - game', function(){
                 })
                 .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                 })
                 .finally(function () {
                 });
@@ -382,7 +382,7 @@ describe('classi-board - game', function(){
                 })
                 .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                 })
                 .finally(function () {
                 });
@@ -522,7 +522,7 @@ describe('classi-board - game', function(){
                 })
                 .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                 })
                 .finally(function () {
                 });
@@ -541,7 +541,7 @@ describe('classi-board - game', function(){
                 })
                 .catch(function (error) {
                     expect(error.response.status).to.be.equal(403);
-                    expect(error.response.data).to.containIgnoreCase("You are not to authorized to perform this operation");
+                    expect(error.response.data).to.containIgnoreCase("You are not authorized to perform this operation");
                 })
                 .finally(function () {
                 });
