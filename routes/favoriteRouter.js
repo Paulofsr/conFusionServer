@@ -33,7 +33,7 @@ favoriteRouter.route('/')
                 }
                 console.log(req.body);
                 for (let index = 0; index < req.body.length; index++) {
-                    const dishId = req.body[index].id;
+                    const dishId = req.body[index].id || req.body[index]._id;
                     if(favorite.dishes.indexOf(dishId) == -1)
                         favorite.dishes.push(dishId);
                 }
